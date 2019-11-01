@@ -1,0 +1,27 @@
+{
+  "name": "micropub-server",
+  "version": "0.0.1",
+  "description": "Hosts micropub and micropub media endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "mime-types": "^2.1.24",
+    "cheerio": "^0.22.0",
+    "multiparty": "^4.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
